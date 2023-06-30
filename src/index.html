@@ -4,13 +4,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Fontawesome CND-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link href="./css/style.css" rel="stylesheet">
 </head>
 
+
 <body>
-    <h1 class="text-3xl font-bold underline">
-        Hello world!
-    </h1>
+    <div class="container relative min-h-screen min-w-full bg-cover bg-center bg-[url('../images/bg-pic.jpg')]">
+        <nav class="flex items-center justify-between">
+            <img class="w-44" src="images/logo-removebg-preview.png" alt="">
+
+            <ul class="mt-5 mr-8 text-center">
+                <li class="list-none inline-block px-5"><a class="px-3" href="#">Ana Sayfa</a></li>
+                <li class="px-3 list-none inline-block"><a
+                        class="text-white hover:text-yellow-300 transition duration-500" href="#">Turlar</a></li>
+                <li class="px-3 list-none inline-block"><a
+                        class="text-white hover:text-yellow-300 transition duration-500" href="#">Kampanyalar</a>
+                </li>
+                <li class="px-3 list-none inline-block"><a
+                        class="text-white hover:text-yellow-300 transition duration-500" href="#">Uçaklarımız</a>
+                </li>
+                <li class="px-3 list-none inline-block"><a
+                        class="text-white hover:text-yellow-300 transition duration-500" href="#">Hakkımızda</a>
+                </li>
+                <li class="px-3 list-none inline-block"><a
+                        class="text-white hover:text-yellow-300 transition duration-500" href="#">İletişim</a></li>
+            </ul>
+        </nav>
+
+        <div class="text-white mt-48 max-w-lg ml-10">
+            <h1 class="text-5xl font-semibold leading-normal">Dünyada gitmediğiniz yer kalmasın!</h1>
+            <p class="">Ek indirimler ve avantajlı ödeme seçenekleri ile hayalinzdeki tatili ertelemeyin,
+                yerinizi ayırtın.</p>
+
+            <div class="mt-8">
+                <a href="#"
+                    class="bg-yellow-300 hover:bg-white hover:text-yellow-300 duration-500 rounded-3xl py-3 px-8 font-medium inline-block mr-4">Anında
+                    Bilet</a>
+                <a href="#"
+                    class="group bg-yellow-300 hover:bg-white hover:text-yellow-300 duration-500 rounded-3xl py-3 px-8 font-medium inline-block">Rezervasyon
+                    <i class="fa-solid fa-plane group-hover:animate-[flying_1s_ease-in-out_infinite] "></i>
+                </a>
+            </div>
+        </div>
+
+        <img src="images/plane.png" class="w-full xl:w-1/2 xl:absolute bottom-32 right-20 -hue-rotate-180">
+    </div>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>
