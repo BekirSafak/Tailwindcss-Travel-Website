@@ -18,7 +18,15 @@ module.exports = {
         animation: {
           wiggle: 'wiggle 1s ease-in-out infinite',
         }
-      }
+      },
+      // Flowbite Dahil Edildi.
+      plugins: [
+        require('flowbite/plugin')
+      ],
+      content: [
+        "./node_modules/flowbite/**/*.js"
+      ]
+      // Flowbite Dahil Edildi.
     },
   },
   plugins: [],
